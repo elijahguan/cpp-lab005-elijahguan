@@ -12,10 +12,10 @@ bool hasDuplicateNaive(const std::vector<int>& values) {
             }
         }
     }
-    return false;
+    return false; //done
 }
 
-bool hasDuplicateEfficient(const std::vector<int>& values) {
+bool hasDuplicateEfficient(const std::vector<int>& values) { //incomplete
     std::unordered_set<int> seen;
     for (int value : values) {
         if (!seen.insert(value).second) {
