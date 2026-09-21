@@ -31,5 +31,3 @@ benchmark: $(BUILD_DIR)/benchmark_app
 clean:
 	rm -rf $(BUILD_DIR)
 
-Run main program (optional):
-	run: ./build/main
